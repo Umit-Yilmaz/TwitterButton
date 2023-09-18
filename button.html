@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <button id="follow" onclick="degistir()">Follow</button>
+
+    <script>
+        function degistir() {
+            var textElement = document.getElementById("follow");
+            if (textElement.innerHTML === "Follow") {
+                textElement.innerHTML = "Following";
+            } else {
+                textElement.innerHTML = "Follow";
+            }
+        }
+    </script>
+</body>
+
+</html>
